@@ -11,11 +11,5 @@
         "bindings": {
             "ctrl-`": "workspace::NewCenterTerminal"
         }
-    },
-    {
-        "context": "Editor",
-        "bindings": {
-            // "j k": ["workspace::SendKeystrokes", "escape"]
-        }
     }
 ]

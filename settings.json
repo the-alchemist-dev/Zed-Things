@@ -7,6 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "agent": {
+        "model_parameters": [],
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-4.1"
+        },
+        "version": "2"
+    },
+    "edit_predictions": {
+        "mode": "subtle",
+        "copilot": {
+            "proxy": null,
+            "proxy_no_verify": null
+        },
+        "enabled_in_text_threads": false
+    },
     "ui_font_size": 16,
     "buffer_font_size": 16,
     "theme": {
@@ -25,6 +41,15 @@
         "git_status": true
     },
 
+    "git": {
+        "inline_blame": {
+            "enabled": false
+        }
+    },
+
+    "hard_tabs": false,
     "tab_size": 4,
-    "preferred_line_length": 120
+    "preferred_line_length": 120,
+    "format_on_save": "on",
+    "auto_indent_on_paste": true
 }
